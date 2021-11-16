@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- color for results (red, green) -->
+<phpunit bootstrap="vendor/autoload.php" colors="true">
+	<!-- folder tests -->
+	<testsuite name="Test suite">
+		<directory>tests</directory>
+	</testsuite>
+</phpunit>
